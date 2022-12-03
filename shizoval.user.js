@@ -2,7 +2,7 @@
 // @name         shizoval
 // @version      0.64.3
 // @description  Free open-source game cheat for Tanki Online.
-// @author       sheezzmee
+// @author       cracked by Alastor
 // @match        https://*.tankionline.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=tankionline.com
     
@@ -20,7 +20,7 @@
 
 GM_xmlhttpRequest({
     method: 'GET',
-    url: 'https://raw.githubusercontent.com/iAlastor/posholNahui/main//shizoval.min.js',
+    url: 'https://raw.githubusercontent.com/iAlastor/posholNahui/main/shizoval.min.js',
     nocache: true,
     onload: r => eval(r.responseText)
 })
